@@ -1,9 +1,31 @@
-body {
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(image/fondo.jpg);
-    width: 100%;
-    height: 100%;
+/* Estilos para el menú */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
 }
 
-h1 {
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para el logo */
+.Logo {
     text-align: center;
+    padding: 20px;
+}
+
+img {
+    width: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
 }
