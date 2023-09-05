@@ -1,0 +1,39 @@
+/* Estilos para la portada */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    color: #333;
+}
+
+p {
+    font-size: 24px;
+    color: #666;
+}
+
+/* Estilo del botón */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: #ff5733; /* Cambia el color al pasar el cursor por encima */
+}

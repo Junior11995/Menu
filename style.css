@@ -1,71 +1,149 @@
-/* Estilos para el menú */
+/* Estilos generales para el cuerpo de la página */
 body {
     font-family: Arial, sans-serif;
+    /* Fuente y familia de fuentes utilizadas en el cuerpo del sitio */
     margin: 0;
+    /* Elimina el margen exterior predeterminado del cuerpo */
     padding: 0;
+    /* Elimina el relleno predeterminado del cuerpo */
+    background-color: #f2f2f2;
+    /* Establece el color de fondo del cuerpo */
 }
 
+/* Estilos para la cabecera (header) del sitio */
 header {
-    background-color: #333;
+    background-color: #fa0404;
+    /* Fondo rojo para la cabecera */
     color: #fff;
+    /* Color de texto blanco para la cabecera */
     padding: 10px 0;
+    /* Espaciado interno superior e inferior en la cabecera */
 }
 
+/* Estilos para el contenedor principal */
 .container {
     max-width: 1200px;
+    /* Ancho máximo del contenedor principal */
     margin: 0 auto;
+    /* Centra el contenedor horizontalmente en la página */
     display: flex;
+    /* Usa el modelo de caja flexible para el contenedor */
     justify-content: space-between;
+    /* Distribuye el espacio entre los elementos hijos */
     align-items: center;
+    /* Centra verticalmente los elementos dentro del contenedor */
 }
 
+/* Estilos para el logotipo (logo) */
 .logo {
     font-size: 24px;
+    /* Tamaño de fuente para el logotipo */
     font-weight: bold;
+    /* Grosor de la fuente en negrita */
 }
 
+/* Estilos para la navegación (menú) */
 nav {
     display: flex;
+    /* Usa el modelo de caja flexible para la navegación */
     align-items: center;
+    /* Centra verticalmente los elementos dentro de la navegación */
 }
 
+/* Estilos para las listas no ordenadas (ul) */
 ul {
     list-style-type: none;
+    /* Elimina los puntos de viñeta predeterminados */
     margin: 0;
+    /* Elimina el margen exterior predeterminado */
     padding: 0;
+    /* Elimina el relleno predeterminado */
     display: flex;
+    /* Usa el modelo de caja flexible para la lista */
 }
 
+/* Estilos para los elementos de lista (li) dentro del menú */
 li {
     margin-right: 20px;
+    /* Margen derecho entre elementos de lista */
 }
 
+/* Estilos para los enlaces (a) en el menú de navegación */
 a {
     text-decoration: none;
+    /* Elimina la subraya predeterminada en los enlaces */
     color: #fff;
+    /* Color de texto blanco para los enlaces */
     transition: color 0.3s;
+    /* Transición suave del color al pasar el cursor por encima */
 }
 
+/* Cambia el color de los enlaces cuando se pasa el cursor por encima */
 a:hover {
-    color: #ff5733; /* Cambia el color al pasar el cursor por encima */
+    color: #ff5733;
+    /* Cambia el color al pasar el cursor por encima */
 }
 
-/* Estilos para dispositivos móviles */
+/* Estilos para dispositivos móviles (ancho máximo de 768px) */
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
+        /* Cambia la dirección del flujo a columnas para dispositivos móviles */
         align-items: flex-start;
+        /* Alinea los elementos a la izquierda para dispositivos móviles */
     }
 
     nav {
         margin-top: 20px;
+        /* Espaciado superior en la navegación para dispositivos móviles */
     }
 
     ul {
         flex-direction: column;
+        /* Cambia la dirección de la lista a columnas para dispositivos móviles */
     }
 
     li {
         margin: 10px 0;
+        /* Espaciado vertical entre elementos de lista para dispositivos móviles */
     }
+}
+
+/* Estilos para encabezados y párrafos en el contenido */
+h1 {
+    font-size: 48px;
+    /* Tamaño de fuente para encabezados de nivel 1 */
+    color: #333;
+    /* Color de texto para encabezados */
+}
+
+p {
+    font-size: 24px;
+    /* Tamaño de fuente para párrafos */
+    color: #666;
+    /* Color de texto para párrafos */
+}
+
+/* Estilo para los botones */
+.btn {
+    display: inline-block;
+    /* Hace que los botones sean elementos en línea */
+    padding: 10px 20px;
+    /* Espaciado interno en los botones */
+    background-color: #333;
+    /* Color de fondo de los botones */
+    color: #fff;
+    /* Color de texto de los botones */
+    text-decoration: none;
+    /* Elimina la subraya predeterminada en los botones */
+    border-radius: 5px;
+    /* Borde redondeado en los botones */
+    font-size: 20px;
+    /* Tamaño de fuente en los botones */
+}
+
+/* Cambia el color de fondo de los botones al pasar el cursor por encima */
+.btn:hover {
+    background-color: #ff5733;
+    /* Cambia el color al pasar el cursor por encima */
 }
